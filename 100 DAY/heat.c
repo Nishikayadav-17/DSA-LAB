@@ -17,7 +17,7 @@ int main() {
             int minute = rand() % 60;
 
             char date[50];
-            sprintf(date, "2026-04-%02dT%02d:%02d:00", day, hour, minute);
+            sprintf(date, "2026-01-%02dT%02d:%02d:00", day, hour, minute);
 
             // File update (IMPORTANT)
             FILE *fp = fopen("activity.txt", "a");
